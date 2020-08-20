@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <title>Bootstrap 5</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">The Coder Guy</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto mr-3 mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact Us</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                Services
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Blog</a></li>
+                <li><a class="dropdown-item" href="https://www.youtube.com/channel/UCFxL0p1E7iqshzrj8OFEUAw?sub_confirmation=1">Tutorials</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Support Us</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <header>
+      <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/1.jpg" class="d-block w-100 img-fluid car_img" alt="Img/1.jpg">
+            <div class="carousel-caption  d-md-block">
+              <h1>Second slide label</h1>
+              <p style="font-size:20px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/2.jpg" class="d-block w-100 img-fluid car_img" alt="Img/2.jpg">
+            <div class="carousel-caption  d-md-block">
+              <h1>Second slide label</h1>
+              <p style="font-size:20px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/3.jpg" class="d-block w-100 img-fluid car_img" alt="Img/3.jpg">
+            <div class="carousel-caption  d-md-block">
+              <h1>Second slide label</h1>
+              <p style="font-size:20px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </header>
+    <section class="about my-5 d-flex flex-column align-items-center bg-light" id="about">
+      <h1>About Us</h1>
+      <hr class="w-25">
+      <div class="container">
+        <div class="row">
+          <div class="card mb-3 col-xl-4 mx-auto" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="img/4.jpg"  alt="..." class="img-fluid">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3 col-xl-4 mx-auto" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="img/4.jpg"  alt="..." class="img-fluid">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3 col-xl-4 mx-auto" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="img/4.jpg"  alt="..." class="img-fluid">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact my-5 d-flex flex-column align-items-center " id="contact">
+      <h1>Contact Us</h1>
+      <hr class="w-25">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-6 mx-auto">
+            <form>
+              <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" placeholder="Enter your name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email"  placeholder="name@example.com" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Enter your message</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+              <label for="exampleDataList" class="form-label">Enter your city</label>
+              <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Type to search...">
+              <datalist id="datalistOptions">
+              <option value="Delhi">
+                <option value="Mumbai">
+                  <option value="Alwar">
+                    <option value="Chennai">
+                      <option value="Amritsar">
+                        <option value="Jaipur">
+                          <option value="Pune">
+                            <option value="Chandigarh">
+                              <option value="Kolkata">
+                                <option value="Bengaluru">
+                                  <option value="Kota">
+                                    </datalist>
+                                    
+                                    
+                                    <div class="my-4 form-check">
+                                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                      <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary">Submit</button>
+                                  </form>
+                                </div>
+                              </div>
+                            </div>
+                          </section>
+                          <footer class="my-5 pt-5 text-muted text-center text-small">
+                            <p class="mb-1">© 2017–2020 The Coder Guy</p>
+                            <ul class="list-inline">
+                              <li class="list-inline-item"><a href="#">Privacy</a></li>
+                              <li class="list-inline-item"><a href="#">Terms</a></li>
+                              <li class="list-inline-item"><a href="#">Support</a></li>
+                            </ul>
+                          </footer>
+                          
+                          
+                          <!-- Optional JavaScript -->
+                          <!-- Popper.js first, then Bootstrap JS -->
+                          <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+                          <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+                        </body>
+                      </html>
